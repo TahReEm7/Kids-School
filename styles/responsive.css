@@ -34,4 +34,14 @@
 br {
     display: none;
 }
+
+/* Footer */
+.footer-container {
+    flex-direction: column;
+    gap: 32px;
+    padding: 65px 16px;
+}
+.end-sub {
+    text-align: center;
+}
 }
