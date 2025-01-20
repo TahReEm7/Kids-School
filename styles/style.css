@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* variable */
+:root {
+    --btn1-clr : orange;
+    --primary-clr :black;
+    --secondary-clr : skyblue;
+    --card-clr : 202020 ;
+    --card-sub-clr : 808080;
+    --purple-clr : 8700FF ;
+    --bg-clr1 : 3CD8E8;
+    --blue-clr : 05D4DF;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 140px;
+
+}
+.nav-item > li {
+    list-style: none;
+}
+.nav-item > li > a {
+    text-decoration: none;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    font-size: 20px;
+    font-weight: medium;
+}
+.logo-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+.btn1 {
+    text-align: center;
+    background-color: var(--btn1-clr) ;
+    color: white ;
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+.home {
+    color: var(--btn1-clr);
+}
+.about {
+    color: var(--secondary-clr);
+}
+.Facilities {
+    color: aquamarine;
+}
+.Admission {
+    color: #5D58EF;
+}
+
+/* Banner Section */
+#banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 140px;
+}
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    padding: 122px 0;
+}
+.banner-title {
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 24px;
+
+}
+.banner-subtitle {
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+    text-align: start;
+    padding-bottom: 24px;
+    
+}
+.empower {
+    color: var(--btn1-clr);
+}
+.student {
+    color: var(--secondary-clr);
+}
+.btn2 {
+    padding: 10px 46px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
