@@ -1,0 +1,37 @@
+@media screen and (max-width : 576px) {
+
+.normal {
+    display : none ;
+}
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid orange;
+    padding: 12px 16px;
+    margin: 0;
+}
+#banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 18px;
+    margin: 0 16px;
+}
+.banner-title {
+    font-size: 32px;
+    
+}
+.banner-subtitle {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 auto;
+}
+.banner-details {
+    padding: 0;
+}
+br {
+    display: none;
+}
+}
