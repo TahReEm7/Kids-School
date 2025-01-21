@@ -138,7 +138,7 @@ article {
 
 /* Standard Curriculum */
 .standard-curriculum {
-    margin: 60px 140px 60px;
+    margin: 60px 140px 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,12 +276,41 @@ card > img {
     font-weight: medium;
     font-size: 15px;
     color: #808080;
-    padding: 0px 38px 34px;
+    padding: 0px 38px;
 }
 .main-card > img {
     width: 100%;
     border-top-left-radius: 16px ;
     border-top-right-radius: 16px;
+}
+.date {
+    background-color: #64C8FF;
+    padding: 14px 19px;
+    border-radius: 47px;
+    z-index: 1;
+    margin-right: 328px;
+    margin-left: 38px;
+    font-weight: medium;
+    font-size: 15px;
+    color: #FFFFFF;
+    position: relative;
+    top:-290px;
+}
+.dates {
+    background-color: green;
+    z-index: 1;
+    padding: 14px 19px ;
+    border-radius: 47px;
+    position: relative;
+    top: -138px;
+    font-weight: medium;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-right: 90px;
+    margin-left: 38px;
+}
+.clr-d {
+    background-color: blue;
 }
 .side-card img {
     width: 100%;
@@ -300,7 +329,7 @@ card > img {
 .cards > h3 {
     font-size: 15.5px;
     font-weight: bold;
-    padding: 0px 38px 28px;
+    padding: 0px 38px;
 }
 .btn-cont {
     padding-bottom: 60px;
