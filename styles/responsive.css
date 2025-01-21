@@ -35,7 +35,7 @@ br {
     display: none;
 }
 /* standard curriculum section */
-.standard-curriculum {
+.standard-curriculum , .story-card-container {
     margin: 40px 16px;
     gap: 10px;
 }
@@ -47,6 +47,14 @@ br {
 }
 .curriculum-head {
     font-size: 26px;
+}
+/* Our Story */
+.main-card {
+    display: none;
+}
+.cards > h3 {
+    font-size: 9px;
+    padding: 20px 22px;
 }
 /* Footer */
 .footer-container {
