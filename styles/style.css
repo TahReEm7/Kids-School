@@ -398,3 +398,6 @@ footer {
     flex-direction: column;
     gap: 50px;
 }
+.marquee {
+    margin: 10px;
+}
